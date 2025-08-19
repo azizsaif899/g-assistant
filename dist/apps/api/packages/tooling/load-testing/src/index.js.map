@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../packages/tooling/load-testing/src/index.ts"],"names":[],"mappings":";;;AAAA,MAAa,WAAW;IACtB,WAAW;QACT,OAAO,CAAC,GAAG,CAAC,wBAAwB,CAAC,CAAC;QACtC,OAAO;YACL,gBAAgB,EAAE,IAAI;YACtB,mBAAmB,EAAE,GAAG;YACxB,iBAAiB,EAAE,GAAG;YACtB,YAAY,EAAE,IAAI;YAClB,MAAM,EAAE,QAAQ;SACjB,CAAC;IACJ,CAAC;CACF;AAXD,kCAWC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"IterativeMode.js","sourceRoot":"","sources":["../../../../../../../../packages/ui/sidebar-agents/src/modes/IterativeMode.ts"],"names":[],"mappings":";;;AAAA,MAAa,aAAa;IACxB,KAAK,CAAC,OAAO,CAAC,KAAa,EAAE,KAAU;QACrC,MAAM,MAAM,GAAG,MAAM,KAAK,CAAC,YAAY,CAAC,KAAK,CAAC,CAAC;QAC/C,OAAO,oBAAoB,MAAM,qBAAqB,CAAC;IACzD,CAAC;CACF;AALD,sCAKC"}

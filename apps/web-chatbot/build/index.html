@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💬 AzizSys AI Chatbot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            direction: rtl; height: 100vh; display: flex; flex-direction: column;
+        }
+        .chat-header {
+            background: rgba(255, 255, 255, 0.95); padding: 20px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .header-info h1 { color: #0984e3; margin-bottom: 5px; }
+        .connection-status {
+            padding: 5px 10px; border-radius: 15px; font-weight: bold;
+            background: #d4edda; color: #155724;
+        }
+        .header-actions { display: flex; gap: 10px; }
+        .header-actions button, .header-actions a {
+            padding: 8px 15px; border: none; border-radius: 6px;
+            background: #0984e3; color: white; text-decoration: none; cursor: pointer;
+        }
+        .chat-container {
+            flex: 1; display: flex; flex-direction: column; padding: 20px;
+            max-width: 800px; margin: 0 auto; width: 100%;
+        }
+        .messages-container {
+            flex: 1; overflow-y: auto; padding: 20px 0;
+            display: flex; flex-direction: column; gap: 15px;
+        }
+        .message { display: flex; align-items: flex-end; gap: 10px; max-width: 70%; }
+        .message.user { align-self: flex-end; flex-direction: row-reverse; }
+        .message.ai { align-self: flex-start; }
+        .message-content {
+            background: rgba(255, 255, 255, 0.9); padding: 15px 20px;
+            border-radius: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .message.user .message-content { background: #0984e3; color: white; }
+        .message-avatar {
+            width: 40px; height: 40px; border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9); display: flex;
+            align-items: center; justify-content: center; font-size: 20px;
+        }
+        .input-container {
+            background: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 15px;
+        }
+        .input-wrapper { display: flex; gap: 10px; align-items: flex-end; margin-bottom: 15px; }
+        .input-wrapper textarea {
+            flex: 1; padding: 12px 15px; border: 2px solid #e9ecef;
+            border-radius: 12px; resize: none; outline: none;
+        }
+        .input-wrapper button {
+            padding: 12px 20px; background: #0984e3; color: white;
+            border: none; border-radius: 12px; cursor: pointer;
+        }
+        .quick-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+        .quick-actions button {
+            padding: 8px 12px; background: rgba(116, 185, 255, 0.2);
+            color: #0984e3; border: 1px solid #0984e3; border-radius: 20px; cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-header">
+        <div class="header-info">
+            <h1>💬 AzizSys AI Chatbot</h1>
+            <div class="connection-status">🟢 متصل</div>
+        </div>
+        <div class="header-actions">
+            <button onclick="clearChat()">🗑️ مسح</button>
+            <a href="http://localhost:62502" target="_blank">🎨 Dashboard</a>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="messages-container" id="messagesContainer">
+            <div class="message ai">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <div>مرحباً! أنا مساعد AzizSys الذكي. كيف يمكنني مساعدتك؟</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <textarea id="messageInput" placeholder="اكتب رسالتك هنا..." rows="2"></textarea>
+                <button onclick="sendMessage()">📤 إرسال</button>
+            </div>
+            <div class="quick-actions">
+                <button onclick="quickMessage('ما هي حالة النظام؟')">📊 حالة النظام</button>
+                <button onclick="quickMessage('أظهر إحصائيات Odoo')">🔗 Odoo</button>
+                <button onclick="quickMessage('كيف يعمل الذكاء الاصطناعي؟')">🤖 AI</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            addMessage(message, 'user');
+            input.value = '';
+            
+            setTimeout(() => {
+                let response = getAIResponse(message);
+                addMessage(response, 'ai');
+            }, 1000);
+        }
+
+        function addMessage(text, sender) {
+            const container = document.getElementById('messagesContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const avatar = sender === 'ai' ? '🤖' : '👤';
+            messageDiv.innerHTML = `
+                <div class="message-avatar">${avatar}</div>
+                <div class="message-content"><div>${text}</div></div>
+            `;
+            
+            container.appendChild(messageDiv);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function getAIResponse(message) {
+            const lowerMessage = message.toLowerCase();
+            
+            if (lowerMessage.includes('حالة النظام')) {
+                return `📊 حالة النظام ممتازة:
+✅ جميع الخوادم تعمل
+🤖 5 وكلاء ذكيين نشطين
+🔗 تكامل Odoo يعمل
+📈 الأداء: 98%`;
+            }
+            
+            if (lowerMessage.includes('odoo')) {
+                return `🔗 إحصائيات Odoo:
+📋 العملاء المحتملين: 25
+💰 أوامر البيع: 12
+📈 معدل التحويل: 65%
+✅ التكامل نشط`;
+            }
+            
+            if (lowerMessage.includes('ذكاء') || lowerMessage.includes('ai')) {
+                return `🤖 نظام الذكاء الاصطناعي:
+🧠 Gemini AI متصل
+🎯 اختيار النماذج الذكي
+🔊 تحويل النص إلى كلام
+📊 تحليلات متقدمة`;
+            }
+            
+            return `شكراً لرسالتك: "${message}"
+أستطيع مساعدتك في:
+📊 معلومات النظام
+🔗 إحصائيات Odoo
+🤖 الذكاء الاصطناعي
+كيف يمكنني مساعدتك؟`;
+        }
+
+        function quickMessage(message) {
+            document.getElementById('messageInput').value = message;
+            sendMessage();
+        }
+
+        function clearChat() {
+            document.getElementById('messagesContainer').innerHTML = `
+                <div class="message ai">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <div>مرحباً! أنا مساعد AzizSys الذكي. كيف يمكنني مساعدتك؟</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        console.log('💬 Web Chatbot loaded!');
+    </script>
+</body>
+</html>

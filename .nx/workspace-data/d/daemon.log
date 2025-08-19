@@ -1,0 +1,624 @@
+[NX Daemon Server] - 2025-08-19T11:33:23.246Z - Started listening on: \\.\pipe\nx\C:\Users\dmm-dgn2\AppData\Local\Temp\849a4362916b5064d083\d.sock
+[NX Daemon Server] - 2025-08-19T11:33:23.249Z - [WATCHER]: Subscribed to changes within: e:\azizsys5\g-assistant-nx (native)
+[NX Daemon Server] - 2025-08-19T11:33:23.251Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-08-19T11:33:23.253Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-08-19T11:33:23.253Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-08-19T11:33:23.255Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-08-19T11:33:23.988Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-08-19T11:33:23.993Z - [REQUEST]: 
+[NX Daemon Server] - 2025-08-19T11:33:23.993Z - [REQUEST]: 
+[NX Daemon Server] - 2025-08-19T11:33:24.022Z - Time taken for 'loadNxPlugins' 730.5617ms
+[NX Daemon Server] - 2025-08-19T11:33:24.022Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-08-19T11:33:24.022Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-08-19T11:33:24.022Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-08-19T11:33:24.022Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2025-08-19T11:33:24.023Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-08-19T11:33:24.023Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-08-19T11:33:24.025Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.028Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.028Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.028Z - Handled HASH_GLOB. Handling time: 2. Response time: 3.
+[NX Daemon Server] - 2025-08-19T11:33:24.028Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.028Z - Handled GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.033Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.034Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.034Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:33:24.038Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-08-19T11:33:24.038Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-08-19T11:33:24.039Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2025-08-19T11:33:24.041Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.041Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.041Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.045Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.045Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.045Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.069Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.069Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.069Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.078Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.078Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.078Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.148Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.148Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.148Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.150Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.150Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.151Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+▲ [WARNING] Cannot find base config file "../tsconfig.base.json" [tsconfig.json]
+
+    apps/sheets-addon/tsconfig.json:2:13:
+      2 │   "extends": "../tsconfig.base.json",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~
+
+[NX Daemon Server] - 2025-08-19T11:33:24.211Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.211Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.211Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.218Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.218Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.218Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+
+[Nx Vite TsPaths] first parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+
+[Nx Vite TsPaths] fallback parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+(node:53692) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX Daemon Server] - 2025-08-19T11:33:24.458Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.458Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.458Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.465Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.465Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.465Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.478Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.478Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.478Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.484Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.485Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.485Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.491Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.491Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.491Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:24.555Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.556Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.556Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:33:24.559Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.559Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.559Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/domain/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.569Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.569Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.569Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.577Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.577Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.577Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.587Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.587Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:24.588Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/ui/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:24.806Z - Time taken for 'build-project-configs' 789.3573ms
+[NX Daemon Server] - 2025-08-19T11:33:24.807Z - Time taken for '@nx/vite/plugin:createDependencies' 7.871300000000019ms
+[NX Daemon Server] - 2025-08-19T11:33:25.606Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - packages/integrations/gemini-research-agent/src/frontend/eslint.config.js: Cannot find package 'eslint-plugin-react-refresh' imported from e:\azizsys5\g-assistant-nx\packages\integrations\gemini-research-agent\src\frontend\eslint.config.js
+      Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'eslint-plugin-react-refresh' imported from e:\azizsys5\g-assistant-nx\packages\integrations\gemini-research-agent\src\frontend\eslint.config.js
+          at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+          at packageResolve (node:internal/modules/esm/resolve:768:81)
+          at moduleResolve (node:internal/modules/esm/resolve:854:18)
+          at defaultResolve (node:internal/modules/esm/resolve:984:11)
+          at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+          at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+          at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+          at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+          at ModuleJob._link (node:internal/modules/esm/module_job:175:49)
+    - packages/integrations/october-implementation/src/frontend/eslint.config.js: Cannot find package 'eslint-plugin-react-refresh' imported from e:\azizsys5\g-assistant-nx\packages\integrations\october-implementation\src\frontend\eslint.config.js
+      Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'eslint-plugin-react-refresh' imported from e:\azizsys5\g-assistant-nx\packages\integrations\october-implementation\src\frontend\eslint.config.js
+          at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+          at packageResolve (node:internal/modules/esm/resolve:768:81)
+          at moduleResolve (node:internal/modules/esm/resolve:854:18)
+          at defaultResolve (node:internal/modules/esm/resolve:984:11)
+          at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+          at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+          at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+          at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+          at ModuleJob._link (node:internal/modules/esm/module_job:175:49)
+    An error occurred while processing files for the @nx/jest/plugin plugin.
+    - apps/admin-dashboard/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - apps/sheets-addon/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - apps/web-chatbot/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - apps/whatsapp-exec-bot/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - apps/whatsapp-query-bot/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - packages/domain/business-logic/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - packages/integrations/bigquery-client/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - packages/integrations/whatsapp-core/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+    - packages/ui/ui-components/jest.config.ts: ● Validation Error:
+  
+    Preset ../jest.preset.js not found.
+  
+    Configuration Documentation:
+    https://jestjs.io/docs/configuration
+  
+      Error: ● Validation Error:
+      
+        Preset ../jest.preset.js not found.
+      
+        Configuration Documentation:
+        https://jestjs.io/docs/configuration
+      
+[NX Daemon Server] - 2025-08-19T11:33:25.611Z - Time taken for 'total execution time for createProjectGraph()' 808.6843999999999ms
+[NX Daemon Server] - 2025-08-19T11:33:25.612Z - Done responding to the client null
+[NX Daemon Server] - 2025-08-19T11:33:25.612Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2351. Response time: 6.
+[NX Daemon Server] - 2025-08-19T11:33:25.617Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-08-19T11:33:32.147Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-08-19T11:33:32.148Z - [WATCHER]: jest.preset.js was modified
+[NX Daemon Server] - 2025-08-19T11:33:32.262Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-08-19T11:33:32.262Z - [REQUEST]: jest.preset.js
+[NX Daemon Server] - 2025-08-19T11:33:32.262Z - [REQUEST]: 
+[NX Daemon Server] - 2025-08-19T11:33:32.287Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.289Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.292Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.292Z - Time taken for 'hash changed files from watcher' 6.90309999999954ms
+[NX Daemon Server] - 2025-08-19T11:33:32.292Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.292Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:33:32.294Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.294Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.295Z - Handled HASH_GLOB. Handling time: 1. Response time: 6.
+[NX Daemon Server] - 2025-08-19T11:33:32.297Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.297Z - Handled GLOB. Handling time: 2. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:33:32.299Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.299Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.299Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:33:32.301Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.303Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.303Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.303Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+▲ [WARNING] Cannot find base config file "../tsconfig.base.json" [tsconfig.json]
+
+    apps/sheets-addon/tsconfig.json:2:13:
+      2 │   "extends": "../tsconfig.base.json",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~
+
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.305Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.305Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.305Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2025-08-19T11:33:32.308Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.308Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.308Z - Handled HASH_GLOB. Handling time: 2. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:33:32.309Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.310Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.310Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:33:32.310Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.310Z - Handled HASH_GLOB. Handling time: 2. Response time: 2.
+[NX Daemon Server] - 2025-08-19T11:33:32.312Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.312Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.312Z - Handled HASH_GLOB. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2025-08-19T11:33:32.312Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.312Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+
+[Nx Vite TsPaths] first parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+
+[Nx Vite TsPaths] fallback parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+[NX Daemon Server] - 2025-08-19T11:33:32.317Z - [REQUEST]: Responding to the client. handleHashGlob
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.319Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.319Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.319Z - Handled HASH_GLOB. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-08-19T11:33:32.319Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.319Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:32.322Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.322Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.322Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.325Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.325Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.325Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:32.327Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.328Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.328Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:33:32.330Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.330Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.330Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:33:32.332Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.332Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.332Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/domain/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.337Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.337Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.337Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.342Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.343Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.343Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.349Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.349Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:33:32.349Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/ui/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:33:32.422Z - Time taken for 'build-project-configs' 147.41449999999895ms
+[NX Daemon Server] - 2025-08-19T11:33:32.423Z - Time taken for '@nx/vite/plugin:createDependencies' 6.039600000000064ms
+[NX Daemon Server] - 2025-08-19T11:33:32.676Z - Time taken for 'total execution time for createProjectGraph()' 259.9194000000007ms
+[NX Daemon Server] - 2025-08-19T11:34:53.712Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-08-19T11:34:53.713Z - [WATCHER]: SIMPLE_START.bat was modified
+[NX Daemon Server] - 2025-08-19T11:34:53.935Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-08-19T11:34:53.935Z - [REQUEST]: SIMPLE_START.bat
+[NX Daemon Server] - 2025-08-19T11:34:53.935Z - [REQUEST]: 
+[NX Daemon Server] - 2025-08-19T11:34:53.966Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.968Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.971Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.972Z - Time taken for 'hash changed files from watcher' 7.213000000003376ms
+[NX Daemon Server] - 2025-08-19T11:34:53.972Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.972Z - Handled HASH_GLOB. Handling time: 1. Response time: 6.
+[NX Daemon Server] - 2025-08-19T11:34:53.975Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.976Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.976Z - Handled HASH_GLOB. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2025-08-19T11:34:53.978Z - [REQUEST]: Responding to the client. handleHashGlob
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:53.982Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.982Z - Handled GLOB. Handling time: 2. Response time: 11.
+[NX Daemon Server] - 2025-08-19T11:34:53.984Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.985Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.985Z - Handled HASH_GLOB. Handling time: 1. Response time: 10.
+▲ [WARNING] Cannot find base config file "../tsconfig.base.json" [tsconfig.json]
+
+    apps/sheets-addon/tsconfig.json:2:13:
+      2 │   "extends": "../tsconfig.base.json",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+[NX Daemon Server] - 2025-08-19T11:34:53.986Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.986Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.986Z - Handled HASH_GLOB. Handling time: 1. Response time: 8.
+
+[Nx Vite TsPaths] first parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+
+[Nx Vite TsPaths] Found tsconfig at e:\azizsys5\g-assistant-nx\tsconfig.base.json
+
+[Nx Vite TsPaths] fallback parsed tsconfig:  {
+  resultType: 'success',
+  configFileAbsolutePath: 'e:\\azizsys5\\g-assistant-nx\\tsconfig.base.json',
+  baseUrl: '.',
+  absoluteBaseUrl: 'e:\\azizsys5\\g-assistant-nx',
+  paths: {
+    '@g-assistant/*': [ 'packages/*/src' ],
+    '@azizsys/shared-types': [ 'packages/shared-types/src/index.ts' ],
+    '@azizsys/json-rpc-client': [ 'packages/json-rpc-client/src/index.ts' ],
+    '@azizsys/whatsapp-client': [ 'packages/whatsapp-client/src/index.ts' ],
+    '@azizsys/shared-hooks': [ 'packages/shared-hooks/src/index.ts' ]
+  },
+  addMatchAll: true
+}
+[NX Daemon Server] - 2025-08-19T11:34:53.988Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.988Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.988Z - Handled HASH_GLOB. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2025-08-19T11:34:53.990Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.991Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.991Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:34:53.992Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Handled HASH_GLOB. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.993Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:34:53.995Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.997Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.997Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.997Z - Handled HASH_GLOB. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-08-19T11:34:53.998Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:53.998Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.001Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.001Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.001Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:34:54.003Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.003Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.003Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.006Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.006Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.006Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:34:54.010Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.011Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.011Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:34:54.013Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.013Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.013Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:34:54.015Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.015Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.016Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/domain/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.021Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.021Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.021Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.026Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.026Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.026Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.030Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.030Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:34:54.030Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/ui/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:34:54.051Z - Time taken for 'build-project-configs' 100.92840000000433ms
+[NX Daemon Server] - 2025-08-19T11:34:54.052Z - Time taken for '@nx/vite/plugin:createDependencies' 8.266400000007707ms
+[NX Daemon Server] - 2025-08-19T11:34:54.268Z - Time taken for 'total execution time for createProjectGraph()' 223.5847000000067ms
+[NX Daemon Server] - 2025-08-19T11:36:51.333Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-08-19T11:36:51.334Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-08-19T11:36:51.443Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-08-19T11:36:51.444Z - [REQUEST]: pnpm-workspace.yaml
+[NX Daemon Server] - 2025-08-19T11:36:51.444Z - [REQUEST]: pnpm-workspace.yaml.3512603243
+[NX Daemon Server] - 2025-08-19T11:36:51.494Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.497Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.500Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.500Z - Time taken for 'hash changed files from watcher' 5.379899999999907ms
+[NX Daemon Server] - 2025-08-19T11:36:51.500Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.500Z - Handled HASH_GLOB. Handling time: 2. Response time: 6.
+[NX Daemon Server] - 2025-08-19T11:36:51.504Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.508Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.508Z - Handled GLOB. Handling time: 2. Response time: 11.
+[NX Daemon Server] - 2025-08-19T11:36:51.513Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.514Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.514Z - Handled HASH_GLOB. Handling time: 2. Response time: 14.
+[NX Daemon Server] - 2025-08-19T11:36:51.514Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.514Z - Handled HASH_GLOB. Handling time: 3. Response time: 10.
+[NX Daemon Server] - 2025-08-19T11:36:51.523Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.523Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.523Z - Handled HASH_GLOB. Handling time: 3. Response time: 10.
+[NX Daemon Server] - 2025-08-19T11:36:51.528Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.528Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.528Z - Handled HASH_GLOB. Handling time: 7. Response time: 5.
+[NX Daemon Server] - 2025-08-19T11:36:51.534Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.534Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.534Z - Handled HASH_GLOB. Handling time: 4. Response time: 6.
+▲ [WARNING] Cannot find base config file "../tsconfig.base.json" [tsconfig.json]
+
+    apps/sheets-addon/tsconfig.json:2:13:
+      2 │   "extends": "../tsconfig.base.json",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~
+
+[NX Daemon Server] - 2025-08-19T11:36:51.536Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.536Z - Handled HASH_GLOB. Handling time: 4. Response time: 2.
+[NX Daemon Server] - 2025-08-19T11:36:51.540Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.540Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.541Z - Handled HASH_GLOB. Handling time: 3. Response time: 1.
+[NX Daemon Server] - 2025-08-19T11:36:51.545Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.545Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.545Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:36:51.556Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.556Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.556Z - Handled HASH_GLOB. Handling time: 7. Response time: 1.
+[31mfailed to load config from e:\azizsys5\g-assistant-nx\apps\admin-dashboard\vite.config.ts[39m
+[31mfailed to load config from e:\azizsys5\g-assistant-nx\packages\integrations\gemini-research-agent\src\frontend\vite.config.ts[39m
+[31mfailed to load config from e:\azizsys5\g-assistant-nx\packages\integrations\october-implementation\src\frontend\vite.config.ts[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.697Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.697Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.697Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.708Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.708Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.708Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:36:51.725Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.725Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.725Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.733Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.734Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.734Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/apps/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.742Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.742Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.742Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:36:51.745Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.745Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.745Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-08-19T11:36:51.748Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.748Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.748Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/domain/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.758Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.759Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.759Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.767Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.768Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.768Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/integrations/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.775Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.775Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2025-08-19T11:36:51.775Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[33mConvert compiler options from json failed, Cannot read file 'e:/azizsys5/g-assistant-nx/packages/ui/tsconfig.base.json'.[39m
+[NX Daemon Server] - 2025-08-19T11:36:51.808Z - Time taken for 'build-project-configs' 340.0749000000069ms
+[NX Daemon Server] - 2025-08-19T11:36:51.813Z - Time taken for '@nx/vite/plugin:createDependencies' 18.136899999983143ms
+[NX Daemon Server] - 2025-08-19T11:36:52.527Z - Time taken for 'total execution time for createProjectGraph()' 729.9128000000201ms
+[NX Daemon Server] - 2025-08-19T11:37:03.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-08-19T11:37:03.086Z - [WATCHER]: Stopping the watcher for e:\azizsys5\g-assistant-nx (sources)
+[NX Daemon Server] - 2025-08-19T11:37:03.087Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-08-19T11:37:03.087Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-08-19T11:37:03.087Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-08-19T11:37:03.087Z - [WATCHER]: Stopping the watcher for e:\azizsys5\g-assistant-nx (outputs)
+[NX Daemon Server] - 2025-08-19T11:37:03.088Z - Server stopped because: "NX_VERSION_CHANGED"

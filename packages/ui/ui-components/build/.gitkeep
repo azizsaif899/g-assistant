@@ -1,0 +1,2 @@
+# Build directory for ui-components
+# This file ensures the build directory exists to prevent ENOENT mkdir errors

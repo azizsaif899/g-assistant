@@ -1,0 +1,155 @@
+
+> gateway@1.0.0 build E:\azizsys5\g-assistant-nx\apps\api
+> tsc
+
+src/ai/ai.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/ai/ai.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/ai/ai.service.ts(2,66): error TS2307: Cannot find module '@g-assistant-nx/ai-engine' or its corresponding type declarations.
+src/ai/ai.service.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/ai/conversation-memory.service.ts(29,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/ai/intent-router.service.ts(2,30): error TS2307: Cannot find module '@azizsys/core-logic' or its corresponding type declarations.
+src/ai/intent-router.service.ts(26,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/ai/response-cache.service.ts(17,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/analytics/user-analytics.service.ts(10,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/app.controller.ts(2,52): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/app.controller.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/app.module.ts(3,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/app.module.ts(17,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/app.service.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/auth.controller.ts(2,52): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/auth/auth.controller.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/auth.module.ts(2,27): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/auth.module.ts(3,32): error TS2307: Cannot find module '@nestjs/passport' or its corresponding type declarations.
+src/auth/auth.module.ts(4,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/auth.module.ts(9,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/auth.service.ts(2,28): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/auth.service.ts(3,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+src/auth/auth.service.ts(7,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/dto/login.dto.ts(1,49): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+src/auth/dto/login.dto.ts(2,29): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/auth/dto/login.dto.ts(5,3): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/session.service.ts(2,28): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/session.service.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/auth/strategies/jwt.strategy.ts(2,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(3,34): error TS2307: Cannot find module '@nestjs/passport' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(4,38): error TS2307: Cannot find module 'passport-jwt' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/chat/chat.gateway.ts(9,8): error TS2307: Cannot find module '@nestjs/websockets' or its corresponding type declarations.
+src/chat/chat.gateway.ts(10,32): error TS2307: Cannot find module 'socket.io' or its corresponding type declarations.
+src/chat/chat.gateway.ts(12,31): error TS2307: Cannot find module '@g-assistant-nx/core-logic' or its corresponding type declarations.
+src/chat/chat.gateway.ts(14,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/chat/chat.module.ts(3,45): error TS2307: Cannot find module '@g-assistant-nx/core-logic' or its corresponding type declarations.
+src/chat/chat.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/commands/commands.controller.ts(7,38): error TS2307: Cannot find module '../../../../packages/core-logic/src/event-bus' or its corresponding type declarations.
+src/commands/commands.controller.ts(22,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/filters/global-exception.filter.ts(10,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/guards/authorization.guard.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/guards/throttle.guard.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/interceptors/audit.interceptor.ts(2,28): error TS2307: Cannot find module 'rxjs' or its corresponding type declarations.
+src/common/interceptors/audit.interceptor.ts(3,21): error TS2307: Cannot find module 'rxjs/operators' or its corresponding type declarations.
+src/common/interceptors/audit.interceptor.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/interceptors/logging.interceptor.ts(2,28): error TS2307: Cannot find module 'rxjs' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(3,21): error TS2307: Cannot find module 'rxjs/operators' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/middleware/security-headers.middleware.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/common/pipes/sanitization.pipe.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/config/config.schema.ts(1,22): error TS2307: Cannot find module 'joi' or its corresponding type declarations.
+src/content/content.controller.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/content/content.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/content/content.service.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/controllers/crm.controller.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/controllers/external-app.controller.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/controllers/meta-tracking.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/controllers/webhook.controller.ts(2,24): error TS2307: Cannot find module '@google-cloud/pubsub' or its corresponding type declarations.
+src/database/conversation.entity.ts(1,115): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/conversation.entity.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/database/database.config.ts(1,38): error TS2307: Cannot find module '@nestjs/typeorm' or its corresponding type declarations.
+src/database/migrations/001-initial-schema.ts(1,63): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/seeds/user.seed.ts(1,28): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/seeds/user.seed.ts(3,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+src/database/session.entity.ts(1,97): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/session.entity.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/database/user.entity.ts(1,103): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/user.entity.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/database/user.repository.ts(2,40): error TS2307: Cannot find module 'typeorm' or its corresponding type declarations.
+src/database/user.repository.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+src/database/user.repository.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/database/user.repository.ts(20,23): error TS2339: Property 'create' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(31,23): error TS2339: Property 'save' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(35,23): error TS2339: Property 'findOne' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(39,23): error TS2339: Property 'findOne' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(47,16): error TS2339: Property 'update' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(54,29): error TS2339: Property 'findOne' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(57,18): error TS2339: Property 'save' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(62,23): error TS2339: Property 'find' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(66,30): error TS2339: Property 'count' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(67,31): error TS2339: Property 'count' does not exist on type 'UserRepository'.
+src/database/user.repository.ts(68,37): error TS2339: Property 'count' does not exist on type 'UserRepository'.
+src/database/validators/user.validator.ts(1,80): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+src/database/validators/user.validator.ts(4,3): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/document-processing/document.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/document-processing/document.controller.ts(8,55): error TS2694: Namespace 'global.Express' has no exported member 'Multer'.
+src/gateway/main.ts(5,34): error TS1343: The 'import.meta' meta-property is only allowed when the '--module' option is 'es2020', 'es2022', 'esnext', 'system', 'node16', 'node18', or 'nodenext'.
+src/gateway/main.ts(8,7): error TS2742: The inferred type of 'app' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/health/health.controller.ts(2,31): error TS2307: Cannot find module '@azizsys/json-rpc-client' or its corresponding type declarations.
+src/health/health.controller.ts(3,29): error TS2307: Cannot find module '@azizsys/cache-client' or its corresponding type declarations.
+src/health/health.controller.ts(4,24): error TS2307: Cannot find module '@azizsys/error-handler' or its corresponding type declarations.
+src/health/health.controller.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/main.ts(2,18): error TS2307: Cannot find module 'cors' or its corresponding type declarations.
+src/main.ts(3,20): error TS2307: Cannot find module 'helmet' or its corresponding type declarations.
+src/main.ts(4,23): error TS2307: Cannot find module 'express-rate-limit' or its corresponding type declarations.
+src/main.ts(11,7): error TS2742: The inferred type of 'app' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/modules/compliance/compliance.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/modules/compliance/compliance.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/modules/compliance/compliance.service.ts(9,8): error TS2307: Cannot find module '@g-assistant/compliance-agent' or its corresponding type declarations.
+src/modules/compliance/compliance.service.ts(11,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/monitoring/monitoring.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/monitoring/monitoring.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/monitoring/monitoring.service.ts(12,8): error TS2307: Cannot find module '@g-assistant-nx/monitoring-core' or its corresponding type declarations.
+src/monitoring/monitoring.service.ts(14,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/odoo/odoo.controller.ts(10,38): error TS2307: Cannot find module '../../packages/bigquery-client/src/odoo-pipeline' or its corresponding type declarations.
+src/privacy/gdpr.service.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/query/dto/query.dto.ts(1,50): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+src/query/dto/query.dto.ts(2,29): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/query/dto/query.dto.ts(5,3): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/query/query.controller.ts(2,52): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/query/query.controller.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/query/query.module.ts(4,45): error TS2307: Cannot find module '@g-assistant-nx/core-logic' or its corresponding type declarations.
+src/query/query.module.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/query/query.service.ts(3,31): error TS2307: Cannot find module '@g-assistant-nx/core-logic' or its corresponding type declarations.
+src/query/query.service.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/routes/agents.routes.ts(3,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/analytics.routes.ts(2,26): error TS2307: Cannot find module '@google-cloud/bigquery' or its corresponding type declarations.
+src/routes/analytics.routes.ts(4,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/commands.routes.ts(3,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/customer.routes.ts(2,28): error TS2307: Cannot find module '@g-assistant/odoo-client' or its corresponding type declarations.
+src/routes/customer.routes.ts(4,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/meta.routes.ts(3,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/odoo.routes.ts(3,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/pulse.routes.ts(3,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/routes/pulse.routes.ts(143,27): error TS2339: Property 'baseline' does not exist on type 'unknown'.
+src/routes/pulse.routes.ts(143,58): error TS2339: Property 'multiplier' does not exist on type 'unknown'.
+src/routes/pulse.routes.ts(145,23): error TS2339: Property 'baseline' does not exist on type 'unknown'.
+src/routes/pulse.routes.ts(146,25): error TS2339: Property 'baseline' does not exist on type 'unknown'.
+src/routes/pulse.routes.ts(148,39): error TS2339: Property 'baseline' does not exist on type 'unknown'.
+src/routes/webhook.routes.ts(4,7): error TS2742: The inferred type of 'router' cannot be named without a reference to '.pnpm/@types+express-serve-static-core@4.19.6/node_modules/@types/express-serve-static-core'. This is likely not portable. A type annotation is necessary.
+src/security/security.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/security/security.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/security/security.service.ts(2,68): error TS2307: Cannot find module '@g-assistant-nx/security-core' or its corresponding type declarations.
+src/security/security.service.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/services/external-integration.service.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/services/meta-ads-api.service.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/services/meta-integration.service.ts(3,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/simulation/simulation.controller.ts(2,39): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/simulation/simulation.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/users/users.controller.ts(2,67): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/users/users.controller.ts(3,27): error TS2307: Cannot find module '@nestjs/passport' or its corresponding type declarations.
+src/users/users.controller.ts(6,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/users/users.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/users/users.service.ts(12,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/whatsapp/whatsapp.controller.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/whatsapp/whatsapp.module.ts(5,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+src/whatsapp/whatsapp.service.ts(2,76): error TS2307: Cannot find module '@g-assistant-nx/whatsapp-core' or its corresponding type declarations.
+src/whatsapp/whatsapp.service.ts(4,1): error TS2354: This syntax requires an imported helper but module 'tslib' cannot be found.
+ ELIFECYCLE  Command failed with exit code 1.
