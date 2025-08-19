@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "noEmit": true
@@ -8,45 +7,12 @@
     "apps/**/*",
     "packages/**/*",
     "scripts/**/*"
-=======
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "lib": ["ES2020"],
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "removeComments": false,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitOverride": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  },
-  "include": [
-    "src/**/*"
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
   ],
   "exclude": [
     "node_modules",
     "dist",
-<<<<<<< HEAD
     "build",
     "**/*.spec.ts",
     "**/*.test.ts"
-=======
-    "**/*.test.ts",
-    "**/*.spec.ts"
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
   ]
 }
