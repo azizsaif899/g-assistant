@@ -10,6 +10,7 @@ env:
   NODE_VERSION: '18'
 
 jobs:
+<<<<<<< HEAD
   # Code Quality and Linting
   code-quality:
     name: Code Quality
@@ -17,11 +18,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+=======
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+<<<<<<< HEAD
 
       - name: Install dependencies
         run: npm install
@@ -96,3 +105,24 @@ jobs:
           echo "✅ Build & Tests: PASSED"
           echo "🛡️ Compliance: PASSED"
           echo "🚀 Ready for deployment"
+=======
+      
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+      
+      - name: Run tests
+        run: npm test --if-present
+      
+      - name: Build project
+        run: npm run build --if-present
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to production
+        run: echo "🚀 Deploying to production..."
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0

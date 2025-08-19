@@ -1,15 +1,59 @@
 # Dependencies
 node_modules/
+<<<<<<< HEAD
+=======
+**/node_modules/
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
 
 # Build outputs
 dist/
 build/
 .next/
 out/
+=======
+lerna-debug.log*
+
+# Build artifacts
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# NX
+.nx/
+nx.log
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 
 # Environment variables
 .env
@@ -17,6 +61,7 @@ out/
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
 
 # IDE
 .vscode/
@@ -45,18 +90,122 @@ coverage/
 # NX
 .nx/cache/
 .nx/workspace-data/
+=======
+.env.*.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 
 # Temporary folders
 tmp/
 temp/
 
+<<<<<<< HEAD
 # Backup files
 *.backup.*
+=======
+# Logs
+logs
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.exe
+*.msi
+*.msm
+*.msp
+
+# Google Apps Script
+.clasp.json
+appsscript.json
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 
 # Database
 *.db
 *.sqlite
+<<<<<<< HEAD
 
 # Cache
 .cache/
 .parcel-cache/
+=======
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Project specific
+SmartExecutor.log
+dashboard_data.json
+test-task.json
+test-file.js
+server.js.backup.*
+eventBus.test.js
+gemini-reviewer-status.js
+
+# Auto-generated files
+**/auto-generated/
+**/.generated/
+
+# Deployment
+.vercel
+.netlify
+
+# Sentry
+.sentryclirc
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# Kubernetes
+*.yaml.bak
+
+# Monitoring
+*.monitoring
+
+# Cache directories
+.cache/
+.tmp/
+.temp/
+
+# Lock files (keep pnpm-lock.yaml, ignore others)
+package-lock.json
+yarn.lock
+>>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
