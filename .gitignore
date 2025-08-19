@@ -1,21 +1,10 @@
 # Dependencies
 node_modules/
-<<<<<<< HEAD
-=======
 **/node_modules/
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-<<<<<<< HEAD
-
-# Build outputs
-dist/
-build/
-.next/
-out/
-=======
 lerna-debug.log*
 
 # Build artifacts
@@ -33,6 +22,8 @@ out/
 # NX
 .nx/
 nx.log
+.nx/cache/
+.nx/workspace-data/
 
 # Testing
 coverage/
@@ -53,7 +44,6 @@ pids
 
 # Optional eslint cache
 .eslintcache
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 
 # Environment variables
 .env
@@ -61,52 +51,20 @@ pids
 .env.development.local
 .env.test.local
 .env.production.local
-<<<<<<< HEAD
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-logs/
-*.log
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
-# NX
-.nx/cache/
-.nx/workspace-data/
-=======
 .env.*.local
 
-# parcel-bundler cache
-.cache
-.parcel-cache
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
+# Cache
+.cache/
+.parcel-cache/
+.tmp/
+.temp/
 
 # Temporary folders
 tmp/
 temp/
 
-<<<<<<< HEAD
-# Backup files
-*.backup.*
-=======
 # Logs
+logs/
 logs
 *.log
 
@@ -138,19 +96,13 @@ appsscript.json
 
 # Backup files
 *.backup
+*.backup.*
 *.bak
 *.tmp
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
 
 # Database
 *.db
 *.sqlite
-<<<<<<< HEAD
-
-# Cache
-.cache/
-.parcel-cache/
-=======
 *.sqlite3
 
 # Certificates
@@ -200,12 +152,6 @@ Dockerfile.prod
 # Monitoring
 *.monitoring
 
-# Cache directories
-.cache/
-.tmp/
-.temp/
-
 # Lock files (keep pnpm-lock.yaml, ignore others)
 package-lock.json
 yarn.lock
->>>>>>> deb4a3cf5cdc5641ad76cc9bcaba03378099b6e0
